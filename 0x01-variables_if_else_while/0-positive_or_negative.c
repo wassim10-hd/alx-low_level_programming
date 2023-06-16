@@ -3,7 +3,7 @@
 #include<stdlib.h>
 /**
  * main - Entry point
- * Return : 0 negative or positive number
+ * Return: 0 negative or positive number
  */
 int main(void)
 {
