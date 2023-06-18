@@ -9,12 +9,15 @@ int main(void)
 
 	b = 32;
 	c = 44;
-	for (a = 48; a < 57; a++)
+	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
-		putchar(c);
-		putchar(b);
+		if (a != 57)
+		{
+			putchar(c);
+			putchar(b);
+		}
 	}
-	putchar(57);
+	putchar('\n');
 	return (0);
 }
