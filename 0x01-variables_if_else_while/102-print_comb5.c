@@ -10,17 +10,21 @@ int main(void)
 	while (a <= 99)
 	{
 		b = a;
-		while (b != a)
+		while (b <= 99)
 		{
-			putchar((a / 10) + 48);
-			putchar((a % 10) + 48);
-			putchar(32);
-			putchar((b / 10) + 48);
-			putchar((b % 10) + 48);
-			if (a != 98 || b != 99)
+			if (b != a)
 			{
-				putchar(44);
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
 				putchar(32);
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
+			
+				if (a != 98 || b != 99)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 			b++;
 		}
