@@ -1,12 +1,20 @@
 #include "main.h"
+#include <ctype.h>
 /**
- * main - check code
- * Return: always 0;
+ * _islower - check the small letter
+ * Return: 1(succ) 0 (failed)
+ * @c: is the carater on test
  */
-int main(void)
+int _islower(int c)
 {
-	int r = _islower('h');
-
-	_putchar(r + '0');
-	return (0);
+	if (islower(c))
+	{
+		return (1);
+		_putchar('\n');
+	}
+	else
+	{
+		return (0);
+		_putchar('\n');
+	}
 }

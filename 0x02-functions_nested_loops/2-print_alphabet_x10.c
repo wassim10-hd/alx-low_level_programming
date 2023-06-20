@@ -1,10 +1,18 @@
 #include "main.h"
 /**
- * main - print 10 time alphabet with function
- * Return: 0 succ
+ * print_alphabet_x10 - print alphabet 10 time
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	int a;
+	char c;
+
+	for (a = 0; a < 10; a++)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n')
+	}
 }
