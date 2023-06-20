@@ -2,10 +2,10 @@
 #include <stdlib.h>
 /**
  * _abs - absolute value
- * @int:value
+ * @n:value
  * Return: absolute value
  */
-int _abs(int)
+int _abs(int n)
 {
-	return (abs(int));
+	return (abs(n));
 }
