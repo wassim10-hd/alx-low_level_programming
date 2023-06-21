@@ -14,7 +14,7 @@ int main(void)
 		s = fib;
 		if (fib > 4000000)
 			break;
-		else
+		else if ((fib % 2) == 0)
 			i = fib + i;
 	}
 	printf("%ld", i);
