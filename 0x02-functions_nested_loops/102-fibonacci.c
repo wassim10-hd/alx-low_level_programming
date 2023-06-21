@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int n = 0, s = 1, fib;
+	long int n = 0, s = 1, fib, i =0;
 
-	printf("%d, %d", n, s);
-	while (fib < 50)
+	printf("%ld, %ld", n, s);
+	while (i < 50)
 	{
 		fib = n + s;
 		n = s;
 		s = fib;
-		if (fib < 50)
-			printf(", %d", fib);
+		printf(", %ld", fib);
+		i++;
 	}
 	printf("\n");
 	return (0);
