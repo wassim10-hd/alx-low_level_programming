@@ -36,7 +36,7 @@ int main(void)
 		}
 		else if (i == 100)
 		{
-			printf("FizzBuzz");
+			printf("Buzz");
 		}
 	}
 	printf("\n");
