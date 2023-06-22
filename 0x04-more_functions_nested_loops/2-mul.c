@@ -1,4 +1,4 @@
-#incldue "main.h"
+#include "main.h"
 /**
  * mul - multiple
  * @a:var
